@@ -1,0 +1,6 @@
+sexo = ""
+
+while sexo != "M" and sexo != "F":
+    sexo = input("Digite seu sexo: [M/F] ").strip().upper()
+
+print("FIM")

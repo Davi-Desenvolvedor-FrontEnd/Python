@@ -1,0 +1,11 @@
+# print("Soma: ", 5+2)
+# print("Subtração: ", 5-2)
+# print("Multiplicação: ", 5*2)
+# print("Divisão: ", 5/2)
+# print("Potência: ", 5**2)
+# print("Divisão inteira: ", 5//2)
+# print("Resto: ", 5%2)
+# expressao = 3 * (5+4)**2
+# print(expressao)
+# print(f"{pow(144, 1 / 2):.0f}")
+print("+"*32)
