@@ -1,6 +1,5 @@
 import math
 
-
 def Area(tipo, dimensoes: list):
        if tipo == "Q":
            a = math.pow(dimensoes[0], 2)
@@ -10,7 +9,7 @@ def Area(tipo, dimensoes: list):
            print(f"O triângulo de base {dimensoes[0]} e altura {dimensoes[1]} \ntem {a:.1f} m²")
        elif tipo == "H":
            a = ( 3 * math.pow(dimensoes[0], 2) * math.pow(3, 0.5)) / 2
-           print(f"O hexâgono de lado {dimensoes[0]} tem {a:.1f} m²")
+           print(f"O hexágono de lado {dimensoes[0]} tem {a:.1f} m²")
        elif tipo == "C":
            a = math.pi * math.pow(dimensoes[0], 2)
            print(f"O círculo de raio {dimensoes[0]} tem {a:.1f} m²")
@@ -20,7 +19,7 @@ print("Qual área deseja medir? ")
 print("Q - Quadrado")
 print("T - Triângulo")
 print("R - Retângulo")
-print("H - Hexâgono")
+print("H - Hexágono")
 print("C - Círculo")
 figura = input().upper()
 
